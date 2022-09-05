@@ -1,5 +1,16 @@
 # Mechanical-Keyboards
 
+Standard Keyboard Size Footprints:
+- Majority are 1.0U keycap size
+- Seven 1.25U for keycaps size
+- Two 1.50U for keycap size
+- One 1.75U for keycap size
+- One 2.00U for keycaps size
+- Two 2.25U for keycaps size
+- One 2.75U for keycaps size
+- One 6.25U for keycap size
+
+
 For every version I am planning to make the PCB and if possible the CAD files for the design. I may also tried to implement the code as well
 
 Version 1 uses an Arduino NANO
