@@ -19,7 +19,7 @@ Version 1 uses an Arduino NANO
 - I may add another version implementing a bluetooth module and a battery protection circuit
 
 
-Version 2 uses an Atmega328P 
+Version 2 uses an Atmega328P (28 pin) or ATMEGA32A-PU (40 pin)
 - All boards will have the basic setup for the Atmega328P according to the datasheet (oscillator, reset, and AVCC schematic setup)
 - Since the Atmega328P does not have an dedicated D+/D-, the board needs to be program using a shield or another method
 - Also, I would like to use TYPE-C for version 2 then implement RGB led, Bluetooth, battery circuit, encoder, and potentially an OLED
