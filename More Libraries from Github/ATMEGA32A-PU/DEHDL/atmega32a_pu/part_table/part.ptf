@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'ATMEGA32A_PU'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Microchip", "ATMEGA32A-PU" (!) = "", "DIP1556W56P254L5232H483Q40N", "Dual-In-Line Packages", "556-ATMEGA32A-PU", "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/ATMEGA32A-PU?qs=6WoM%2FY8vMbadJ8khIfKCsQ%3D%3D", "ATMEGA32A-PU", "https://www.arrow.com/en/products/atmega32a-pu/microchip-technology?region=nac", "8-bit Microcontrollers - MCU 32KB In-system Flash 2.7V - 5.5V", "http://www.mouser.com/ds/2/268/Atmel-8155-8-bit-Microcontroller-AVR-ATmega32A_Dat-1065737.pdf", "4.826 mm"
+END_PART
+
+END.

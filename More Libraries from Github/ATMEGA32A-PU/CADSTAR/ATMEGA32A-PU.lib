@@ -1,0 +1,19 @@
+.ATMEGA32A-PU :1 ;8-bit Microcontrollers - MCU 32KB In-system Flash 2.7V - 5.5V
+DIP1556W56P254L5232H483Q40N
+*STM IC
+*NGS
+*PLB 1="(XCK/T0) PB0" 2="(T1) PB1" 3="(AIN0/ INT2) PB2" 4="(AIN1/OC0) PB3" 5="('SS) PB4'" 6="(MOSI) PB5" 7="(MISO) PB6" 8="(SCK) PB7" 9="'RESET'" 10="VCC" 11="GND_1" 12="XTAL2" 13="XTAL1" 14="(RXD) PD0" 15="(TXD) PD1" 16="(INT0) PD2" 17="(INT1) PD3" 18="(OC1B) PD4" 19="(OC1A) PD5" 20="(ICP1) PD6" 21="PD7 (OC2)" 22="PC0 (SCL)" 23="PC1 (SDA)" 24="PC2 (TCK)" 25="PC3 (TMS)" 26="PC4 (TDO)" 27="PC5 (TDI)" 28="PC6 (TOSC1)" 29="PC7 (TOSC2)" 30="AVCC" 31="GND_2" &
+32="AREF" 33="PA7 (ADC7)" 34="PA6 (ADC6)" 35="PA5 (ADC5)" 36="PA4 (ADC4)" 37="PA3 (ADC3)" 38="PA2 (ADC2)" 39="PA1 (ADC1)" 40="PA0 (ADC0)"
+*MXP 40
+*DFN ATMEGA32A-PU
+~!Manufacturer_Name (Microchip)
+~!Manufacturer_Part_Number (ATMEGA32A-PU)
+~!Mouser Part Number (556-ATMEGA32A-PU)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Microchip-Technology/ATMEGA32A-PU?qs=6WoM%2FY8vMbadJ8khIfKCsQ%3D%3D)
+~!Arrow Part Number (ATMEGA32A-PU)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/atmega32a-pu/microchip-technology?region=nac)
+~!Link Datasheet (http://www.mouser.com/ds/2/268/Atmel-8155-8-bit-Microcontroller-AVR-ATmega32A_Dat-1065737.pdf)
+~!Height (4.826mm)
+~!3D_Model (ATMEGA32A-PU)
+ATMEGA32A-PU
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 13.1!U 14.1!U 15.1!U 16.1!U 17.1!U 18.1!U 19.1!U 20.1!U 40.1!U 39.1!U 38.1!U 37.1!U 36.1!U 35.1!U 34.1!U 33.1!U 32.1!U 31.1!U 30.1!U 29.1!U 28.1!U 27.1!U 26.1!U 25.1!U 24.1!U 23.1!U 22.1!U 21.1!U 

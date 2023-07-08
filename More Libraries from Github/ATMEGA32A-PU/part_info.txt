@@ -1,0 +1,9 @@
+Manufacturer=Microchip
+PartNumber=ATMEGA32A-PU
+PartCategory=Integrated Circuit
+PackageCategory=Dual-In-Line Packages
+PinCount=40
+Version=2.1
+Released=2017-02-05 10:51:35
+Downloaded=2023-07-08 03:28:53
+3D=Y

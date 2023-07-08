@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ATMEGA32A-PU
+D 8-bit Microcontrollers - MCU 32KB In-system Flash 2.7V - 5.5V
+K
+F http://www.mouser.com/ds/2/268/Atmel-8155-8-bit-Microcontroller-AVR-ATmega32A_Dat-1065737.pdf
+$ENDCMP
+#
+#End Doc Library
