@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "MX_Alps_Hybrid")(type "Legacy")(uri "C:/Users/artorias961/Desktop/Notas/Project/Keyboard Project/MX_Alps_Hybrid/Schematic Library/MX_Alps_Hybrid.lib")(options "")(descr ""))
   (lib (name "random-keyboard-parts")(type "Legacy")(uri "C:/Users/artorias961/Desktop/Notas/Project/Keyboard Project/random-keyboard-parts.pretty/Schematic Library/random-keyboard-parts.lib")(options "")(descr ""))
+  (lib (name "breakout_boards")(type "Legacy")(uri "C:/Users/artorias961/Desktop/Notas/Project/Keyboard Project/random-keyboard-parts.pretty/Schematic Library/random-keyboard-parts.lib")(options "")(descr ""))
 )
