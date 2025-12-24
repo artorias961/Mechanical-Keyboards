@@ -1,24 +1,33 @@
 # Summary
 
+This project documents the design and iteration of custom mechanical keyboards, covering schematic capture and PCB layout in KiCad, along with firmware and key-mapping experiments. The repository tracks multiple hardware revisions, including an archived AVR-based design and a newer ESP32-S3 implementation exploring wireless connectivity, expanded I/O, and modern MCU capabilities.
+
+The goal is to serve as both a personal learning record and a practical reference for others interested in building custom keyboards from the ground up.
+
+
+## Lore / Why this exists
+
+Pretty much I’m a keyboard fanatic — I’ve owned ~5 keyboards. During COVID I spent most of my time at home and wanted to learn PCB design. My first version was a huge learning curve, so I’m keeping everything here so others can use it as a reference (or improve it beyond what I could do)
 
 
 
-## Lore
-
-Pretty much im a keyabord fanatic. I like keybaords and have about 5 keyabords. During the covid, i spent most of my time at home and wanted to learn more about pcb. I started my first verrsion, which was a quite a huge learning curve. So hopefully by having this, people can use this as a reference or improve this better than i can do!
 
 
+## Keyboard versions
 
 
-# Keyboard Versions
-The following will list the benefits and my concerns for each version. 
 
 
-## Version 2: ESP32-S3-WROOM-1
-- The main seller is the Bluetooth and serial pins
-- The esp32-s3-wroom-1 is currently esp flagship chip
-- significantly more computing power, memory, and I/O flexibility which ATMEGA32A-PU lacked.
-   - Cost more to add more functionality vs esp chip that contains everything   
+
+### Version 2 — ESP32-S3-WROOM-1
+
+**Why ESP32-S3:**
+- The main seller is **Bluetooth** + **serial pins**.
+- ESP32-S3-WROOM-1 is positioned as a flagship ESP chip.
+- More computing power, memory, and I/O flexibility than ATMEGA32A-PU 
+
+(You also captured a quick MCU comparison table in the repo notes.) 
+
 
 | Feature / MCU             | ATmega328P                                 | ATmega32A-PU                | Raspberry Pi Pico (RP2040)                    | ESP32 (e.g., Nano ESP32)                              |
 | ------------------------- | ------------------------------------------ | --------------------------- | --------------------------------------------- | ----------------------------------------------------- |
@@ -36,13 +45,15 @@ The following will list the benefits and my concerns for each version.
 
 
 
-## Version 1: ATMEGA32A-PU (Archive)
-- Prefer ATMEGA32A-PU over the famous ATMEGA328 is due to the pins
-- Does not have dedicate serial pins
-- Have enough pins for LED, OLED screen, and potentially add a bluetooth module
-- One of my main concerns it is not wireless
+### Version 1 — ATMEGA32A-PU (Archive)
 
-Here are some awesome pictures from version 1, sadly did not manufacture since was qouted 100 dollars for one pcb at the time (around 2021):
+**Why ATMEGA32A-PU (vs ATMEGA328):**
+- Preferred over ATMEGA328 due to **more pins**.
+- No dedicated serial pins.
+- Enough pins for **LEDs**, an **OLED**, and possibly a Bluetooth module.
+- Main concern: **not wireless**.
+
+This version wasn’t manufactured at the time due to a ~$100 quote for a single PCB (around 2021). Here are some pictures from V1:
 
 
 <p align="center">
@@ -66,3 +77,42 @@ Standard Keyboard Size Footprints:
 - Two 2.25U for keycaps size
 - One 2.75U for keycaps size
 - One 6.25U for keycap size
+
+
+
+
+
+
+
+---
+---
+---
+----
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Key footprint sizing notes
+
+Standard keyboard size footprints captured in the repo notes: 
+- Majority are **1.0U**
+- **Seven** 1.25U
+- **Two** 1.50U
+- **One** 1.75U
+- **One** 2.00U
+- **Two** 2.25U
+- **One** 2.75U
+- **One** 6.25U
