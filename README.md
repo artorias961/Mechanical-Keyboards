@@ -66,44 +66,6 @@ This version wasn’t manufactured at the time due to a ~$100 quote for a single
 
 
 
-# Mechanical-Keyboards
-
-Standard Keyboard Size Footprints:
-- Majority are 1.0U keycap size
-- Seven 1.25U for keycaps size
-- Two 1.50U for keycap size
-- One 1.75U for keycap size
-- One 2.00U for keycaps size
-- Two 2.25U for keycaps size
-- One 2.75U for keycaps size
-- One 6.25U for keycap size
-
-
-
-
-
-
-
----
----
----
-----
----
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ## Key footprint sizing notes
 
